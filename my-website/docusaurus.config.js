@@ -10,7 +10,7 @@ const config = {
     v4: true,
   },
   url: 'https://anthropic.github.io',
-  baseUrl: '/my-website/',
+  baseUrl: '/',
   organizationName: 'anthropic',
   projectName: 'book',
   onBrokenLinks: 'throw',
