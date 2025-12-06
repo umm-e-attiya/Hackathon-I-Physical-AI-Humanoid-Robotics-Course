@@ -43,28 +43,33 @@ Build production version:
 
 npm run build
 
-📁 Project Structure
+## 📁 **Project Structure**
+
 my-website/
-├── docs/                 # Course chapters and modules
-├── src/                  # Website source code
-├── static/               # Images and assets
-├── package.json          # Scripts & dependencies
-├── docusaurus.config.js  # Site configuration
-├── sidebars.js           # Sidebar navigation
-└── blog/ (optional)      # Optional blog section
+├── docs/ # Course chapters and modules
+├── src/ # Website source code
+├── static/ # Images and assets
+├── package.json # Scripts & dependencies
+├── docusaurus.config.js # Site configuration
+├── sidebars.js # Sidebar navigation
+└── blog/ (optional) # Optional blog section
 
-📜 Scripts
-npm run start      # Run development server
-npm run build      # Build website
-npm run deploy     # Deploy website (if using gh-pages)
-
-⚖️ License
-
-MIT License – Free to use and modify
-
+yaml
+Copy code
 
 ---
 
-If you want, I can also **add Vercel & GitHub badges at the top** to make it look **more professional and modern** for GitHub.  
+## 📜 **Scripts**
 
-Do you want me to do that?
+npm run start # Run development server
+npm run build # Build website
+npm run deploy # Deploy website (if using gh-pages)
+
+yaml
+Copy code
+
+---
+
+## ⚖️ **License**
+
+MIT License – Free to use and modify
