@@ -1,0 +1,22 @@
+# Node.js/JavaScript/TypeScript
+node_modules/
+dist/
+build/
+*.log
+.env*
+
+# Docusaurus specific
+.docusaurus/cache
+.docusaurus/docusaurus-debug
+.docusaurus/
+.cache/
+.pnp/
+.pnp.js
+
+# Universal
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.vscode/
+.idea/
