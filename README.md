@@ -26,6 +26,7 @@ It includes structured modules, tasks, and assignments to help students and enth
 
 - **Live Site (Vercel):** [https://hackathon-i-physical-ai-humanoid-robotics-course-73v-e4kcmhqrm.vercel.app/](https://hackathon-i-physical-ai-humanoid-robotics-course-73v-e4kcmhqrm.vercel.app/)  
 - **GitHub Repository:** [https://github.com/umm-e-attiya/Hackathon-I-Physical-AI-Humanoid-Robotics-Course](https://github.com/umm-e-attiya/Hackathon-I-Physical-AI-Humanoid-Robotics-Course)  
+- **YOUTUBE VIDEO LINK:** https://www.youtube.com/watch?v=e4ePUYslwUM
 
 ---
 
