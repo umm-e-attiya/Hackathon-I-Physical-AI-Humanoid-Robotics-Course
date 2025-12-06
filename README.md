@@ -54,8 +54,6 @@ my-website/
 ├── sidebars.js # Sidebar navigation
 └── blog/ (optional) # Optional blog section
 
-yaml
-Copy code
 
 ---
 
@@ -63,13 +61,11 @@ Copy code
 
 npm run start # Run development server
 npm run build # Build website
-npm run deploy # Deploy website (if using gh-pages)
-
-yaml
-Copy code
-
----
+npm run deploy # Deploy website
 
 ## ⚖️ **License**
 
 MIT License – Free to use and modify
+
+---
+
