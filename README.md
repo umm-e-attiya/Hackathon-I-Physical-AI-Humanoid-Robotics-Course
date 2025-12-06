@@ -1,39 +1,39 @@
-🤖 Hackathon I – Physical AI & Humanoid Robotics Course
+# 🤖 **Hackathon I – Physical AI & Humanoid Robotics Course**
 
-This project is a complete interactive course built for Hackathon I, focusing on Physical AI and Humanoid Robotics.
+This project is a **complete interactive course** built for Hackathon I, focusing on **Physical AI and Humanoid Robotics**.  
 It includes structured modules, tasks, and assignments to help students and enthusiasts learn AI-driven robotics systems.
 
-🛠️ Tech Used
+---
 
-Docusaurus – Website & course structure
+## 🛠️ **Tech Used**
 
-Speckit – Content generation & formatting
+- **Docusaurus** – Website & course structure  
+- **Speckit** – Content generation & formatting  
+- **Claude AI** – AI assistance for content & examples  
 
-Claude AI – AI assistance for content & examples
+---
 
-📚 What’s Included
+## 📚 **What’s Included**
 
-Comprehensive course modules on robotics, AI, and humanoid systems
+- Comprehensive course modules on robotics, AI, and humanoid systems  
+- Interactive tasks and assignments for hands-on learning  
+- Detailed notes and specifications organized by module  
+- Fully deployable website with structured navigation  
 
-Interactive tasks and assignments for hands-on learning
+---
 
-Detailed notes and specifications organized by module
+## 🌐 **Deployment**
 
-Fully deployable website with structured navigation
+- **Live Site (Vercel):** [https://hackathon-i-physical-ai-humanoid-robotics-course-73v-e4kcmhqrm.vercel.app/](https://hackathon-i-physical-ai-humanoid-robotics-course-73v-e4kcmhqrm.vercel.app/)  
+- **GitHub Repository:** [https://github.com/umm-e-attiya/Hackathon-I-Physical-AI-Humanoid-Robotics-Course](https://github.com/umm-e-attiya/Hackathon-I-Physical-AI-Humanoid-Robotics-Course)  
 
-🌐 Deployment
+---
 
-Live Site (Vercel): https://hackathon-i-physical-ai-humanoid-robotics-course-73v-e4kcmhqrm.vercel.app/
+## ⚡ **How to Run Locally**
 
-GitHub Repository:  https://github.com/umm-e-attiya/Hackathon-I-Physical-AI-Humanoid-Robotics-Course
-
-⚡ How to Run Locally
-
-Install dependencies:
-
+1. Install dependencies:
+```bash
 npm install
-
-
 Start development server:
 
 npm run start
@@ -56,8 +56,15 @@ my-website/
 📜 Scripts
 npm run start      # Run development server
 npm run build      # Build website
-npm run deploy     # Deploy website 
+npm run deploy     # Deploy website (if using gh-pages)
 
 ⚖️ License
 
 MIT License – Free to use and modify
+
+
+---
+
+If you want, I can also **add Vercel & GitHub badges at the top** to make it look **more professional and modern** for GitHub.  
+
+Do you want me to do that?
