@@ -2,6 +2,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
+import ChatWidget from "../components/ChatWidget";
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
@@ -43,21 +44,25 @@ export default function Home() {
             <Link className="button button--secondary" to="/docs/module1">
               Module 1
             </Link>
+            
           </li>
           <li>
             <Link className="button button--secondary" to="/docs/module2">
               Module 2
             </Link>
+            
           </li>
           <li>
             <Link className="button button--secondary" to="/docs/module3">
               Module 3
             </Link>
+            
           </li>
           <li>
             <Link className="button button--secondary" to="/docs/module4">
               Module 4
             </Link>
+           
           </li>
         </ul>
 
@@ -67,9 +72,12 @@ export default function Home() {
             <Link className="button button--primary" to="/docs/assessment">
               Final Assessment
             </Link>
+
+            
           </li>
         </ul>
       </main>
+      <ChatWidget />
     </Layout>
   );
 }

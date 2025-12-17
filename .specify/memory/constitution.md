@@ -1,7 +1,7 @@
 <!-- Sync Impact Report:
-Version change: 1.0.0 → 1.0.1
-List of modified principles: None
-Added sections: None
+Version change: 2.0.0 → 2.0.1
+List of modified principles: Added Non-Negotiable Rules section with specific requirements
+Added sections: Non-Negotiable Rules (API key hardcoding prohibition, Gemini context requirement, .env mandate, agent.py as central brain)
 Removed sections: None
 Templates requiring updates:
   - .specify/templates/plan-template.md ⚠ pending
@@ -20,42 +20,53 @@ Templates requiring updates:
   - .specify/templates/commands/sp.git.commit_pr.md ⚠ pending
 Follow-up TODOs: None
 -->
-# Physical AI & Humanoid Robotics Course Constitution
+# RAG Chatbot System Constitution
 
 ## Core Principles
 
-### I. Accuracy
-All facts must be verified from credible sources.
+### I. Security First
+All API keys and sensitive configurations must be managed through environment variables, never hardcoded. (.env file mandatory)
 
-### II. Clarity
-Written for a computer-science audience.
+### II. Data Integrity
+The system must only respond based on information retrieved from the ingested documentation, ensuring factual accuracy. (Gemini context required for all answers)
 
-### III. Reproducibility
-All claims and technical content must be traceable.
+### III. Reproducible Workflow
+The system must follow a clean, repeatable process for ingesting MD files, converting to vectors, and storing in Qdrant.
 
-### IV. Rigor
-Prefer peer-reviewed and primary sources.
+### IV. Proper Configuration
+All components must be properly configured before operation, with clear error handling for misconfigurations. (agent.py as central brain)
+
+## Non-Negotiable Rules
+
+- ❌ API keys must never be hardcoded (enforced via .env file)
+- ❌ System must not generate answers without proper Gemini context
+- ✅ .env file usage is mandatory for all configurations
+- ✅ agent.py serves as the central brain of the system
 
 ## Standards
 
-- Citations: APA style
-- Sources: Minimum 15 (at least 50% peer-reviewed)
-- Plagiarism: 0% tolerance
-- Readability: Flesch-Kincaid grade 10–12
+- Documentation: MD files stored in my-website/docs
+- Vector Storage: Qdrant for efficient similarity search
+- AI Processing: Google Gemini for answer generation
+- Security: Environment variables for all API keys and configs
+- Code Quality: Clean, maintainable, well-documented code
+- Error Handling: Comprehensive error reporting and graceful degradation
 
 ## Constraints
 
-- Word Count: 5,000–7,000 words
-- Format: Docusaurus book + PDF export
-- Tools: Spec-Kit Plus + Claude Code
-- Deployment: Must deploy cleanly to GitHub Pages
+- Architecture: Backend system with secure API endpoints
+- Dependency Management: Proper package management and version control
+- Deployment: Container-ready with environment-based configuration
+- Scalability: Designed to handle growing documentation sets
+- Performance: Efficient document retrieval and response generation
 
 ## Governance
 
-All changes to the course material must adhere to the following success criteria:
-- All claims fully verified
-- Zero plagiarism
-- Meets academic rigor + citation requirements
-- Fully deploys without errors
+All changes to the RAG chatbot system must adhere to the following success criteria:
+- No hardcoded secrets or API keys
+- Proper integration with Qdrant vector database
+- Accurate responses sourced only from documentation
+- Secure configuration management
+- Repeatable deployment process
 
-**Version**: 1.0.1 | **Ratified**: 2025-12-06 | **Last Amended**: 2025-12-06
+**Version**: 2.0.1 | **Ratified**: 2025-12-16 | **Last Amended**: 2025-12-16
