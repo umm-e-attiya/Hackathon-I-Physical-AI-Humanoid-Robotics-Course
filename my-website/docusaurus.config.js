@@ -9,7 +9,7 @@ const config = {
   future: {
     v4: true,
   },
-  url: 'https://anthropic.github.io',
+  url: 'https://hackathon-i-physical-ai-humanoid-robotics-course-73v-e4kcmhqrm.vercel.app/',
   baseUrl: '/',
   organizationName: 'anthropic',
   projectName: 'book',
